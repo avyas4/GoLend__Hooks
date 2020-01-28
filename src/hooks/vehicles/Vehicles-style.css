@@ -1,0 +1,27 @@
+.vehiclesComponent {
+  padding: 4em 2em;
+}
+.vehiclesComponent__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 2em 2em;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  color: #1cd070;
+  padding: 1em 0 1em 0;
+}
+.vehiclesComponent__footer {
+  font-size: 12px;
+  color: #808080;
+  text-align: center;
+}
+
+@media all and (max-width: 768px) {
+  .vehiclesComponent__row {
+    width: 100%;
+  }
+}

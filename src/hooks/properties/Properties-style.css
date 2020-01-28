@@ -1,0 +1,70 @@
+.Properties {
+  padding: 1em;
+}
+.Properties__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 2em 0;
+  margin: 0 auto;
+  border: 1px solid #808080;
+  border-radius: 3px;
+}
+.Properties__columnImage {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-basis: 30%;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #808080;
+  text-align: center;
+}
+
+.Properties__columnImage img {
+  width: 150px;
+  height: 100px;
+}
+
+.Properties__column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  flex-basis: 50%;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #808080;
+  text-align: center;
+}
+p {
+  font-size: 12px;
+  padding-bottom: 1.5em;
+}
+h4 {
+  font-weight: bold;
+}
+.Properties__price {
+  font-weight: bold;
+  font-size: 12px;
+}
+.Properties__price span {
+  font-size: 1.5em;
+}
+.Properties__priceFrom {
+  color: #1cd070;
+  padding-left: 1em;
+}
+
+@media all and (max-width: 768px) {
+  .Properties__column {
+    flex-basis: 100%;
+  }
+  .Properties__columnImage {
+    flex-basis: 100%;
+  }
+}

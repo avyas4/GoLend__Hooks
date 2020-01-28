@@ -1,0 +1,33 @@
+.avatar {
+  padding: 4em 0em;
+}
+.avatar__imgContainer {
+  width: 80%;
+  text-align: center;
+  border-bottom: 2px solid #a9a9a9;
+  line-height: 0.1em;
+  margin: 0 auto;
+  position: relative;
+}
+.avatar__avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 0 10px;
+  top: -50px;
+  left: 42%;
+  position: absolute;
+}
+@media all and (max-width: 480px) {
+  .avatar__avatar {
+    left: 35%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .avatar__imgContainer {
+    width: 100%;
+  }
+}
